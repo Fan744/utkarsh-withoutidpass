@@ -17,5 +17,6 @@
 
 ## Run
 ```bash
+git clone your repo
 pip install -r requirements.txt
 python bot.py
