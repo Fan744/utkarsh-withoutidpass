@@ -9,9 +9,10 @@ services:
       pip install --upgrade pip
       pip install -r requirements.txt
 
-    startCommand: |
-      python bot.py
+    # 👉 यही START COMMAND है (important)
+    startCommand: python bot.py
 
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.3
+
